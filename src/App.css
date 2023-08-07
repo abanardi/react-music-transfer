@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+}
+
+.album-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  /* justify-content:space-around; */
+  background-color: beige;
+  width: fit-content;
+}
+
+.app-container{
+  display: flex;
+  justify-content: center;
+}

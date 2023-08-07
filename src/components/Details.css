@@ -1,0 +1,36 @@
+.tracks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: beige;
+}
+
+.playlist-header-container{
+    display: flex;
+    justify-content: center;
+}
+
+.playlist-header{
+    display: flex;
+    width: 75%;
+    background-color: rgb(209, 246, 246);
+}
+
+.playlist-art{
+    height: 250px;
+    width: 250px;
+    background-color: aquamarine;
+}
+
+.playlist-title{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items:center;
+}
+
+.transfer-to-apple-music-button{
+    height: 40px;
+    
+}

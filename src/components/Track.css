@@ -1,0 +1,30 @@
+.track{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    background-color:lavender;
+
+}
+
+.track-image{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+}
+
+.track-name{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 45%;
+    background-color: lightcoral;   
+}
+
+.track-artist{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 45%;
+    background-color: lightpink;
+}
