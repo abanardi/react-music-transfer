@@ -1,16 +1,20 @@
 .track{
     height: auto;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     width: 75%;
-    background-color:lavender;
+    background-color: #646161;
+    margin-bottom: 5px;
+    /* background-color:lavender; */
+    /* border-color: black; */
 
 }
 
 .track-image{
-    background-color: aqua;
+    background-color: #208420;
     height: 100px;
     width: 100px;
+    /* border-style: solid; */
 }
 
 .track-name{
@@ -18,7 +22,9 @@
     justify-content: center;
     align-items: center; 
     width: 45%;
-    background-color: lightcoral;   
+    color: white;
+    /* border-style: solid; */
+    /* background-color: lightcoral;    */
 }
 
 .track-artist{
@@ -26,5 +32,7 @@
     justify-content: center;
     align-items: center; 
     width: 45%;
-    background-color: lightpink;
+    color: white;
+    /* border-style: solid; */
+    /* background-color: lightpink; */
 }

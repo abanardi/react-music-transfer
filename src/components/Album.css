@@ -1,7 +1,11 @@
 .album-art{
-    background-color: lightblue;
+    background-color: #208420;
     height: 250px;
     width: 250px;
     margin-left: 20px;
     margin-right: 20px;
+}
+
+.album-name{
+    color: white;
 }

@@ -8,7 +8,7 @@ export default function Album({name, imageId}) {
       
     </div>
     <div className='album-details'>
-        <p>{name}</p>
+        <p className='album-name'>{name}</p>
     </div>
 
   </div>;

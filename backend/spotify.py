@@ -63,13 +63,13 @@ def authorize_two(client_id, client_secret, redirect_uri):
     print("Access token:", access_token)
     return access_token
 
-# authorize(CLIENT_ID, CLIENT_SECRET, REDIRECT_URI)
-authorize_two(CLIENT_ID, CLIENT_SECRET, REDIRECT_URI)
+authorize(CLIENT_ID, CLIENT_SECRET, REDIRECT_URI)
+# authorize_two(CLIENT_ID, CLIENT_SECRET, REDIRECT_URI)
 
 
 # Use the authorization code obtained earlier to get the access token
-access_token = authorize(CLIENT_ID, CLIENT_SECRET, REDIRECT_URI)
-print("Access token:", access_token)
+# access_token = authorize(CLIENT_ID, CLIENT_SECRET, REDIRECT_URI)
+# print("Access token:", access_token)
 
 def get_playlist_isrc(access_token, playlist_id):
 
@@ -115,8 +115,8 @@ elite_playlist = '6hRRvWIvoEF8vKTyJmBj6K'
 garbage_tester = '1XWbsDIPIy6yc4Wm7LrKrv'
 
 # get_playlist_isrc(access_token, garbage_tester)
-isrc_list = get_playlist_isrc(access_token, my_inner_yash)
-print(isrc_list)
+# isrc_list = get_playlist_isrc(access_token, my_inner_yash)
+# print(isrc_list)
 
 
 def add_songs_to_playlist(access_token, playlist_id, songs_list):

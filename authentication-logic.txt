@@ -1,0 +1,21 @@
+This is going to be a guide on how exactly to 
+authenticate the user
+
+Steps:
+    1. Start up the app
+    2. Click a button to navigate to Spotify login
+        2a. This will then return us to the React app
+    3. We then either do one of the two
+        3a. Make the user click a button to get the
+            access token
+        3b. We automatically call a function (ie. useEffect)
+            so that it automatically creates the access token
+    4. Now we have been authenticated and can access the 
+        full Spotify api
+
+Need to figure out:
+    1. How to pass parameters into the functions with link parameters
+    2. How to get the Apple Music API to work
+    3. Does the Apple Music API have the same bullshit that the spotify
+        one does?
+

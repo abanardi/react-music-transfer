@@ -4,6 +4,7 @@ import axios from 'axios';
 import { useEffect } from 'react';
 import Album from './components/Album';
 import Details from './components/Details';
+import Login from './components/Login';
 
 function App() {
   function fetchAPI() {
@@ -43,12 +44,13 @@ function App() {
 
   return (
     <div className="App">
-      
-      <h1 onClick={fetchAPI}>Welcome to the playlist transfer tool</h1>
+      <Login/>
+
+      <h1 className='app-title' onClick={fetchAPI}>Welcome to the playlist transfer tool</h1>
       <div className="app-container">
         <div className="album-container">
           {playlists.map((playlist) => {
-            return <Album name={playlist.name}/>;
+            return <Album key={playlist.key} name={playlist.name}/>;
           })}
         </div>
       </div>

@@ -2,16 +2,22 @@
   text-align: center;
 }
 
+.app-title{
+  color: white;
+}
+
+body{
+  background-color: #6d6b6b;
+}
+
 .album-container{
   display: flex;
   flex-wrap: wrap;
-  justify-content: left;
+  justify-content: center;
   /* justify-content:space-around; */
-  background-color: beige;
-  width: fit-content;
+  /* background-color: beige; */
 }
 
 .app-container{
-  display: flex;
-  justify-content: center;
+
 }
